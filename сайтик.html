@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Политика и Котята для Мелиссы 🐾</title>
+    <style>
+        *, *::before, *::after {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            background-color: #fff0f3;
+            color: #4a3b32;
+            margin: 0;
+            padding: 40px 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .site-container {
+            background-color: #ffffff;
+            max-width: 750px;
+            width: 100%;
+            padding: 40px;
+            border-radius: 30px;
+            box-shadow: 0 10px 30px rgba(255, 182, 193, 0.35);
+            border: 2px solid #ffccd5;
+            position: relative;
+        }
+
+        .decor-cat {
+            font-size: 1.8rem;
+            text-align: center;
+            margin-bottom: 15px;
+            user-select: none;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 35px;
+        }
+
+        h1 {
+            color: #ff758f;
+            font-size: 2.2rem;
+            margin: 0 0 20px 0;
+            font-weight: 700;
+            letter-spacing: -0.5px;
+        }
+
+        .intro {
+            font-size: 1.1rem;
+            line-height: 1.65;
+            color: #5c4d43;
+            text-align: justify;
+            text-justify: inter-word;
+            margin: 0;
+        }
+
+        .political-blocks {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            margin: 30px 0;
+        }
+
+        .card {
+            background-color: #fffafb;
+            padding: 25px;
+            border-radius: 20px;
+            border: 1px solid #ffe5ec;
+        }
+
+        .card-left {
+            border-top: 6px solid #ff8fa3;
+        }
+
+        .card-right {
+            border-top: 6px solid #c9ada7;
+        }
+
+        h2 {
+            margin: 0 0 15px 0;
+            font-size: 1.4rem;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .card-left h2 { color: #ff4d6d; }
+        .card-right h2 { color: #7a685c; }
+
+        .section-title {
+            font-weight: bold;
+            color: #3d312a;
+            margin-top: 15px;
+            margin-bottom: 4px;
+            font-size: 0.95rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .card p {
+            margin: 0 0 12px 0;
+            font-size: 1rem;
+            line-height: 1.5;
+            color: #5c4d43;
+        }
+
+        .card p:last-child {
+            margin-bottom: 0;
+        }
+
+        .conclusion {
+            background-color: #fff5f6;
+            padding: 25px;
+            border-radius: 20px;
+            font-size: 1rem;
+            line-height: 1.6;
+            color: #6c584c;
+            text-align: justify;
+            margin-top: 20px;
+            border: 1px dashed #ffccd5;
+        }
+
+        footer {
+            margin-top: 40px;
+            text-align: center;
+            border-top: 1px solid #ffe5ec;
+            padding-top: 25px;
+        }
+
+        .footer-note {
+            font-size: 0.95rem;
+            color: #a39085;
+            font-style: italic;
+            margin-bottom: 10px;
+        }
+
+        .dedication {
+            font-size: 1.1rem;
+            color: #ff758f;
+            font-weight: bold;
+            letter-spacing: 0.3px;
+        }
+
+        .heart {
+            color: #ff4d6d;
+            display: inline-block;
+            animation: heartBeat 1.5s infinite;
+        }
+
+        @keyframes heartBeat {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.15); }
+            100% { transform: scale(1); }
+        }
+
+        @media (max-width: 650px) {
+            body { padding: 15px; }
+            .site-container { padding: 25px 20px; }
+            .political-blocks { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="site-container">
+    <div class="decor-cat">🌸 🐱 🌸</div>
+    
+    <header>
+        <h1>Левые и Правые</h1>
+        <p class="intro">
+            «Левые» и «правые» — это основные политические направления, разделяющие взгляды на устройство общества и экономики. Это деление возникло во Франции в 1789 году, когда сторонники радикальных перемен садились в парламенте слева, а защитники традиций и монархии — справа.
+        </p>
+    </header>
+
+    <div class="political-blocks">
+        <div class="card card-left">
+            <h2>Левые 🐾</h2>
+            
+            <div class="section-title">Главная ценность</div>
+            <p>Равенство и социальная справедливость.</p>
+            
+            <div class="section-title">Взгляды</div>
+            <p>Выступают за то, чтобы государство активно вмешалось в экономику, перераспределяло доходы через высокие налоги для богатых и обеспечивало бесплатное образование, медицину и социальные пособия.</p>
+            
+            <div class="section-title">Идеологии</div>
+            <p>Социализм, коммунизм, социал-демократия.</p>
+        </div>
+
+        <div class="card card-right">
+            <h2>Правые 🐾</h2>
+            
+            <div class="section-title">Главная ценность</div>
+            <p>Свобода, индивидуализм и традиционные ценности.</p>
+            
+            <div class="section-title">Взгляды</div>
+            <p>Считают, что государство должно минимально вмешиваться в жизнь граждан и бизнес. Выступают за свободный рынок, низкие налоги и частную собственность. Успех человека зависит от его личных усилий.</p>
+            
+            <div class="section-title">Идеологии</div>
+            <p>Консерватизм, либерализм, либертарианство. Ультраправые могут придерживаться националистических идей.</p>
+        </div>
+    </div>
+
+    <div class="conclusion">
+        В современной политике эти понятия могут смешиваться. Многие партии являются центристскими, сочетая в себе элементы обоих направлений (например, поддерживая рыночную экономику наряду с сильными социальными программами). Большинство современных движений стремятся к прагматизму, адаптируя свои программы под актуальные потребности общества.
+    </div>
+
+    <footer>
+        <div class="footer-note">Сайт был создан с целью объяснить, что такое «правые» и «левые», для человека по имени Мелисса</div>
+       
+    </footer>
+</div>
+
+</body>
+</html>
